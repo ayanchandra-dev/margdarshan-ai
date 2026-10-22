@@ -4,6 +4,8 @@
 
 Built for Kritical Hacks 2026 (AI/ML Track, Student category).
 
+Pitch deck: [Margdarshan-AI-Kritical-Hacks-2026.pptx](./Margdarshan-AI-Kritical-Hacks-2026.pptx)
+
 ## The problem
 
 Skilling programmes train millions of people, but many never reach a livelihood.
@@ -25,6 +27,8 @@ People with low literacy often cannot navigate text-heavy forms and portals. The
 This is not a chatbot over a static dataset. It works on the live web and takes action for people who cannot navigate portals themselves.
 
 ## Architecture
+
+![Architecture](./architecture.png)
 
 Voice in (Indic STT) -> LLM agent (intent and profile extraction) -> Matcher (skill gap and NSQF ranking) -> TinyFish live web layer -> Voice out (Indic TTS, WhatsApp, web)
 
@@ -62,7 +66,15 @@ Next.js, FastAPI, PostgreSQL, Whisper / Indic STT, Indic TTS, TinyFish APIs.
 
 ## Status
 
-Concept and architecture submitted for Kritical Hacks 2026. The working build starts at the hackathon. The pitch deck is in this repository.
+Concept and architecture submitted for Kritical Hacks 2026. A minimal TinyFish Search demo is in `demo/search_demo.py`. The full build starts at the hackathon.
+
+## Team
+
+| Name | Role | Profile |
+|---|---|---|
+| Ayan Chandra | Voice, Frontend and Pitch Lead | https://github.com/ayanchandra-dev |
+| Pratham Prajapati | AI and Backend Lead | https://github.com/pratham1max |
+| Muhammad Asad | TinyFish and Data Engineer | linkedin.com/in/muhammad-asad-10a871369 |
 
 ## References
 
